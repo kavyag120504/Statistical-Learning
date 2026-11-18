@@ -1,0 +1,18 @@
+# UniDL4BioPep project - pinned to the versions these results were produced with.
+# CPU-only PyTorch is enough (see README). Install with:
+#   pip install -r requirements.txt
+#
+# Note: the CPU build of torch is used here. On a machine with CUDA you can
+# install the matching GPU build instead; the code auto-uses CPU either way.
+
+numpy==2.1.2
+pandas==2.3.1
+scipy==1.16.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+torch==2.9.0
+transformers==4.57.1
+matplotlib==3.10.5
+openpyxl==3.1.5
+joblib==1.5.2
+streamlit==1.50.0            # live demo interface (app.py); not needed for training

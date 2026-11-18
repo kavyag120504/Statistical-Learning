@@ -1,0 +1,5 @@
+dataset,pair,mean_spearman,n
+toxicity,X_vs_delete,0.6324,246
+acp,X_vs_delete,0.3765,105
+neuropeptide,X_vs_delete,0.0529,422
+ace,X_vs_delete,0.3254,88

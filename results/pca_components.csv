@@ -1,0 +1,5 @@
+dataset,n_train,total_dims,pca90_comp,pca95_comp,pca99_comp
+toxicity,3284,320,30,54,151
+acp,1378,320,24,43,125
+neuropeptide,3880,320,34,62,167
+ace,1826,320,30,56,155

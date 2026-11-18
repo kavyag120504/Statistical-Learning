@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# virtual envs
+venv/
+.venv/
+env/
+
+# run logs (regenerated; not deliverables)
+results/*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# NOTE: we DO commit the trained models and embeddings on purpose so a
+# teammate can run the demo WITHOUT retraining:
+#   models_saved/*.joblib          (classical models)
+#   results/masking_models/*.pt    (CNN + scaler)
+#   data/embeddings/*.npz          (cached ESM-2 vectors)
+# The ESM-2 weights themselves are NOT committed; they download once from
+# HuggingFace on first run (see src/setup_check.py).

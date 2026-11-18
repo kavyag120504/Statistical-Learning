@@ -1,0 +1,5 @@
+dataset,style,k,m,n_peptides,mean_drop_top,mean_drop_rand,mean_drop_bottom,wilcoxon_p_top_vs_rand,rank_biserial_top_vs_rand
+toxicity,X,5,3,120,0.0602,0.0014,-0.0326,1.3100548201107993e-08,0.5
+acp,X,5,3,105,0.0905,-0.053,-0.122,1.3782551297195483e-06,0.3878
+neuropeptide,X,5,3,120,0.2391,0.1128,0.0489,8.26073539185314e-06,0.4902
+ace,X,5,3,49,0.1593,-0.0052,-0.0566,0.00022713112288491193,0.7241
